@@ -1,10 +1,8 @@
 package com.myapplicationdev.android.demodatabase;
 
-
 public class Task {
     private int id;
-    private String description;
-    private String date;
+    private String description, date;
 
     public Task(int id, String description, String date) {
         this.id = id;
